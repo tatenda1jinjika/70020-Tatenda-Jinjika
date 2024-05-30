@@ -1,0 +1,154 @@
+/* Start Landing Page */
+.landing-page header {
+    min-height: 80px;
+    display: flex;
+    
+  }
+  
+    .landing-page header {
+      min-height: auto;
+      display: initial;
+    }
+  
+  .landing-page header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     background-color: #8cb6da; 
+  }
+  
+  .landing-page header .logo {
+    color: #5d5d5d;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .landing-page header .links {
+    display: flex;
+    align-items: center;
+    text-decoration:none;
+    
+  }
+  
+  .landing-page header .links li {
+    margin-left: 30px;
+    color: #9f00c5;
+    cursor: pointer;
+    transition: .3s;
+    list-style-type:none;
+    text-decoration:none;
+  }
+  
+  .landing-page header .links li:last-child {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #FFF;
+    background-color:#9f00c5;
+    list-style-type:none;
+    text-decoration:none;
+  }
+  a{
+    text-decoration:none;
+  }
+  
+  /* end of header */
+  
+  .people {
+    margin-top: 2rem;
+    padding: 1rem 0;
+  }
+  
+  .stakeholders {
+    margin: 2rem auto;
+    max-width: 1100px;
+  }
+  
+  .stakeholders img {
+    border-radius: 0.6rem;
+  }
+  
+  
+  .persons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 1rem;
+  }
+  
+  /* end of body */
+  
+  h1 {text-align: center;}
+  
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%;
+  }
+  
+  body {
+    font-family: acumin-pro, system-ui, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    align-items: start;
+    min-height: 100vh;
+  }
+  
+  .site-footer {
+    background-color: #838383;
+      text-align: center;
+      margin: 10px 0;
+      padding: 10px 0;
+  }
+  
+  #social-wrapper {
+      text-align: center;
+  }
+  
+  /*Social Media Icons*/
+  .social-wrapper {
+      text-align: center;
+  }
+  
+  .social-wrapper ul li {
+      display: inline;
+      margin: 0 5px;
+  }
+  
+  .twitter-icon,
+  .facebook-icon,
+  .instagram-icon,
+  .linkedin-icon,
+  .googleplus-icon,
+  .youtube-icon,
+  .foursquare-icon{
+      margin-top: .625em;
+      width: 40px;
+      height: 40px;
+      opacity: .6;
+      filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 25px;
+  }
+  
+  .twitter-icon:hover,
+  .facebook-icon:hover,
+  .instagram-icon:hover,
+  .linkedin-icon:hover,
+  .googleplus-icon:hover,
+  .youtube-icon:hover,
+  .foursquare-icon:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+  
+  .footer-nav p {
+      text-align: center;
+  }
+  
+  
